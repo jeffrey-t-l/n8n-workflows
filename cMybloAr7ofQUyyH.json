@@ -1,0 +1,92 @@
+{
+  "active": false,
+  "connections": {
+    "Strava Trigger": {
+      "main": [
+        [
+          {
+            "node": "Append row in sheet",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "createdAt": "2025-11-25T12:42:29.611Z",
+  "id": "cMybloAr7ofQUyyH",
+  "isArchived": false,
+  "meta": {
+    "templateCredsSetupCompleted": true
+  },
+  "name": "Strava Workouts to Google Sheet",
+  "nodes": [
+    {
+      "parameters": {
+        "event": "create",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.stravaTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "fd66557e-6ff4-4859-9c32-a04d60f4adf9",
+      "name": "Strava Trigger",
+      "webhookId": "317477a2-7970-45bc-956e-70837f541aae",
+      "credentials": {
+        "stravaOAuth2Api": {
+          "id": "p43a6UuawU8oLSgw",
+          "name": "Strava account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "mode": "list",
+          "value": ""
+        },
+        "sheetName": {
+          "__rl": true,
+          "mode": "list",
+          "value": ""
+        }
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        208,
+        0
+      ],
+      "id": "dad8cf7d-50cd-4ea4-a799-071b7129aa13",
+      "name": "Append row in sheet"
+    }
+  ],
+  "origin": "n8n",
+  "pinData": {},
+  "repo": {
+    "owner": "jeffrey-t-l",
+    "name": "n8n-workflows"
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "shared": [
+    {
+      "updatedAt": "2025-11-25T12:42:29.619Z",
+      "createdAt": "2025-11-25T12:42:29.619Z",
+      "role": "workflow:owner",
+      "workflowId": "cMybloAr7ofQUyyH",
+      "projectId": "sbTdaL91iTcNHlfH"
+    }
+  ],
+  "staticData": null,
+  "tags": [],
+  "triggerCount": 0,
+  "updatedAt": "2025-11-25T22:53:58.000Z",
+  "versionId": "fbae28b2-2476-43a0-8161-b1fa09b2e90b"
+}
