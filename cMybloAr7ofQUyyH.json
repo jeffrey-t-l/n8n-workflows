@@ -19,7 +19,7 @@
   "meta": {
     "templateCredsSetupCompleted": true
   },
-  "name": "Strava Workouts to Google Sheet",
+  "name": "[DRAFT]Strava Workouts to Google Sheets",
   "nodes": [
     {
       "parameters": {
@@ -87,6 +87,6 @@
   "staticData": null,
   "tags": [],
   "triggerCount": 0,
-  "updatedAt": "2025-11-25T22:53:58.000Z",
-  "versionId": "fbae28b2-2476-43a0-8161-b1fa09b2e90b"
+  "updatedAt": "2025-11-29T01:28:45.000Z",
+  "versionId": "7bb37657-8966-4ef9-91fc-5deaccd61d6f"
 }
