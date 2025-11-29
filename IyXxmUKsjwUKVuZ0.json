@@ -340,7 +340,7 @@
   "meta": {
     "templateCredsSetupCompleted": true
   },
-  "name": "My workflow",
+  "name": "Backup Workflows to Github",
   "nodes": [
     {
       "parameters": {},
@@ -1170,6 +1170,6 @@
   },
   "tags": [],
   "triggerCount": 1,
-  "updatedAt": "2025-11-29T01:20:38.000Z",
-  "versionId": "5d49bc35-051d-4ba0-840c-2188317dc0ae"
+  "updatedAt": "2025-11-29T01:28:26.000Z",
+  "versionId": "7bc8c52f-b5fa-40d4-8a5f-522381ab2259"
 }
