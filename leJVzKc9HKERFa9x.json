@@ -1,0 +1,47 @@
+{
+  "active": false,
+  "connections": {},
+  "createdAt": "2025-11-25T02:07:44.968Z",
+  "id": "leJVzKc9HKERFa9x",
+  "isArchived": false,
+  "meta": {
+    "templateCredsSetupCompleted": true
+  },
+  "name": "First Workflow",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "846985b2-5a88-4033-b117-fe0e04f20b03",
+      "name": "When clicking ‘Execute workflow’"
+    }
+  ],
+  "origin": "n8n",
+  "pinData": {},
+  "repo": {
+    "owner": "jeffrey-t-l",
+    "name": "n8n-workflows"
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "shared": [
+    {
+      "updatedAt": "2025-11-25T02:07:44.978Z",
+      "createdAt": "2025-11-25T02:07:44.978Z",
+      "role": "workflow:owner",
+      "workflowId": "leJVzKc9HKERFa9x",
+      "projectId": "sbTdaL91iTcNHlfH"
+    }
+  ],
+  "staticData": null,
+  "tags": [],
+  "triggerCount": 0,
+  "updatedAt": "2025-11-29T01:11:02.000Z",
+  "versionId": "1af70ae8-d1be-4362-824a-9d87aedd11da"
+}
